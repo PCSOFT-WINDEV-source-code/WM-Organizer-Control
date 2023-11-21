@@ -1,0 +1,374 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Organizer
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Organizer
+ identifier : 0x2c93771a080def9e
+ internal_properties : CAAAAAgAAACAddVcW1YXmM4uwjn295IpUZ9+e5mGWunXvyMpIgP4FCU+IBNjxuvVBKcFqLNc/Mz5HrzUhJKBxSaMM3vz/0GavT1NaVEjFIcc02T/xUHtAjgjwDeoM0jB1VS15pXFvKl6LQOHFnli4JLMLD9SrJTmAPcHXECFT8BqXSOYrMOr6WqJMfBgWvI5gJat5JXNwXo3+wfO7597ix3M404T0OrjdfU2rdyIeN0c2HHGTfPFhGDQD+NCgAxvLpSCiH6W/KAtfLuc5qy/30/99YFsnc8uM9/mS9+yncmqEWbDOCdism9EuwVnna1txh/9x3dFs6pM82TRF748rkQsLzP8AYLE11jqpcdBQcARPLXJ974+PdZKDuazdfLz6EGDF1apc+l0YfHFkWFzifsAK1GPuEUDzh+864tTSO6wBGjGFM0JyisiSordkZrddGcElIlsjRBqSkX5epehR/f23jH31dIvdrRk8SLLSzTGScxy1lbbd6HKqt201Mm6L884do07KuhhGs+KXYWucZtespa6RImM36KbVHeKA/Fe2VmlDWyAPei4T05vQ9/KRlX/kSO/uD96dsNzRj8CjZ8KupHxNlohFGaYF+eA4AuEPrLAH4U29L6nlI1G1GmTlihGNjHanEPgEKI8SfurGFylOwtaR9PwJUo/vOVpSc2UB+IiTo45ohH8Pih6DyhryYpw+b4LXrNbgHoNLIatkVcyoLd6UKfsFmcT5GPzhaNQ9WXyInLUksGuMw2bpyL5nfuFURoUhYo=
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : BTN_Day
+    identifier : 0x2c93771a0810ef9e
+    internal_properties : CAAAAAgAAAA3XIBEayoI8iP0ZAwkmApy/4yeQBh62A/0gydLzIWDlXI5Qditl6aqDKtlGS4mSlXjnwTtMAzST0ge177PjUWfDvuV68tLSWXG4RSX8qkmPhqZr9q7MsCvWgzbStenjaz8i23FCcXL/7/jMqfKFrHFaf1L/hTTPFRHylBo5HDbJkw5z2jOCPclrjCFkotvpuYMov4OMRm1tUiMJ8SSvJhlETPC/lBnhyXGeGpwKgy+GA95E8b/0XYJi/jc4JECEtEMeCyzz/64RKgRfsYR2JSX735dzTdZFc46VG2ixzoF6EAruKwxwBGA/e17t7ieJ1WikWA/O5DVGTr4lrQ3LkraxtlP1798ha8Yy5091mmN5LzzoifIXG6/bgHpzgZiYd3Rb5nq6PcylMC9oleKToBbDEDKdjDKd/5/xMxPUSHp4Hh302J56/AuSLflp3R4hDzySlwaHWrRcPJGCze34d0+mzeA/L2hHdgYl4FYT+o25W8AINAbPmAD75trlfb+XIuIN642G8g2GyG6MXpkhnHBVOyXcQWUksqUwfVaUllAh5JRbPZdupyQmhkzkb93k6fVOtbS2Qc5BBgk7A9YBhVW2bauaXqigOTaGXhEBb6osqJ0kdS4MTGQUYdA0AK1X7WjnbE7GHLpnueSbcNDF07kljWhMkTlfY/MD+TlkpwH6qjQO+Cdo+bYjur7x67scn2MMw+xvJP4zsAuZITVTJGHhTI6R842mw7t4F/OKSeE8XE7+kGJSg/iUMEIVemJIkPgX8mraQJnMhOpNYTRnArWhDkrkvVYPj8=
+    properties :
+     x : 17
+     y : 22
+     width : 96
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         ChangeOrganizerMode(OrganizerMode_Day)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Week
+    identifier : 0x2c93771a0814ef9e
+    internal_properties : CAAAAAgAAABivDjvA4rC96Tn0KBkJuoGAqIK1hbXPovPDniT5+s1qmKB45N+rBiG1rvjcUzyjbSUuAiK3vdd/70k6KTVC1ZIrloQ1qIs9J0u0B5WT1YoVGBeJXQdO+fTU9A+g3+7+FSro1F7BkE0hpNAFdfmE3Tnp90t6C1gBqhRPtkVGGnVt5Ce7xRXU3xvEIr6ZnZSKxGcWhv0TZ9Qv9T4CM9W5xl35oghEEHsgvi+/iBeFpyeM0nFAW1Ut3hrP8oIm+YVsFqUFnib1e5Tyx+Kc0gukrWKmCWX7mqF67oMffO5dpba5s+iEN/OK7AZjHYCKTZDXaDBkudJqjp8ckpl8lIHWWYYKZ1S+PiTtXvkYznIo6ddN6bGDAM+WE/25xalOmuXlQEBczG9+PiEkZ4WBEl6NNVqE/7fsL2c47PO3oc7UStYFSV16A6qe75hBRkU2drQW1fvgs1KGtRJT4UQBo3hHfi51Fsv8A7Je0lX3ZrsF4wrPoRiN/bMZn7SdoeaPQLMm7Jvu2PSzGbSrqi2+tB+xliKnyIyB5bsqD2jC44Shoex1AuxKeoU1MSb9Vk2YTNhrB5yruX2+O9HR1vs0c0yvr6dugxjYa9+KisLP2/mi9LxoU80Ci51baMRmEXBPkw1snCEpU47bRZ/JRSaFvfD/bWvHQVaqAeBWyy9ex0HKHyoqYvu/uAwf9x/f4ZaP7oaV5RlU3gJJwmYm73HAIebzLFEP+w1jFSqD+6Q33PzuP0mG+KN3gYl9N4Sp4NQKOoESNK2luR1LHbKbEa6ZhX0SbfYDTObVWIrAB7I
+    properties :
+     x : 112
+     y : 22
+     width : 96
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         ChangeOrganizerMode(OrganizerMode_Week_5)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Month
+    identifier : 0x2c93771a0811ef9e
+    internal_properties : CAAAAAgAAACc5IdFuhKMFVu74ZAh2DsLVPQg79trSiOoxbWGA52b1fVX+F2wD2dIOigGB1WJcPXIV+DZ3lN5QPjTvtF86w68envLxjBi6IXLCFndjgTaRXwK+sXzGbRLLnPBDkUayknGDFA9LNSvnw+VmgtN0V81Rmedfof/vnMleL1swvZiQIdr+s31vHSnwfrYZ0+Fa0X8a8OnWBd8WgmIoIjUrFzVnfs3Kr7fGn6sQayeqGhS1S5WX/8hg1Pnl1KqH3GxHI1BdQCbb9DNGE8yH7xNuc4RjkOt3fldBLwM56pWPYA3xb5TiAwpWQahOiqqU5mLvgH6htdDER+VmzS6U3XbG4tji5J3o2hdd57230VWbo/CU8FBfYyqHGP9EzKPPzEa9zSlAdstmcezNgNNrcguCl3V+f6oYToDCD3rphC6xBlIkmF3DSGRfi9zpIHbAC3Kg6RB6jSj56lgc+iulTBYWYoqgpdUM9UCDm1Oz1kXLuT1f0Aipv2PI/ViIyU5Vkd663d3F5Bh9zUHssdyFZXfUkrtc8rf3LcBXxtiedvnx6Pv6cGX7jv5hw2HmL1rLJKzlAtSrnDxB35cQwyORIRVSpD4TuTM5BbJ+1egifpr/LApLMuMZ1eC7KgvB+NyaRuVrIOQC+OiwFEweU9cS5Awf1k+n2+//ZCi/jy2V0oI3TqwdpvkY0Hd4KcpPgjrWjlqrUmhN8fWeFR5Sfh3ZheZHGCTKpN3RGygUyiom8bXXSQFG5s0JamqHLIXRWodwYnfeMivPW6tPHb3uCugyxP9ZO27emA2VZD1kc+ttX0=
+    properties :
+     x : 207
+     y : 22
+     width : 96
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         ChangeOrganizerMode(OrganizerMode_Month)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ORG_APT
+    identifier : 0x2c93771a0812ef9e
+    internal_properties : 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
+    properties :
+     y : 84
+     width : 320
+     height : 323
+    type : 76
+    code_elements :
+     type_code : 107
+     p_codes :
+      -
+        code : |1-
+         Procédure BeforeCreation(aptCreated is an Appointment)
+         
+         OpenMobileWindow(WIN_EditAPT,aptCreated)
+        type : 135
+      -
+        code : |1+
+         Procédure EntryInInput(aptEdited is an Appointment)
+        type : 136
+      -
+        code : |1+
+         Procédure ExitFromInput(aptModified is an Appointment)
+        type : 137
+      -
+        code : |1-
+         Procédure Selection(aptSelected is an Appointment)
+         
+         gSelectedAPT = aptSelected
+         OPT_Edit..Visible = True
+        type : 130
+      -
+        code : |1-
+         Procédure Movement(aptMoved is an Appointment)
+         
+         HReadSeek(apt,APTID,aptMoved..ID)
+         apt.StartDate = aptMoved..StartDate
+         apt.EndDate = aptMoved..EndDate
+        type : 131
+      -
+        code : |1+
+         Procédure Resizing(aptResized is an Appointment)
+        type : 132
+      -
+        code : |1+
+         Procédure Deletion(aptDeleted is an Appointment)
+        type : 134
+      -
+        code : |1-
+         
+         RefreshOrganizerInfo
+        type : 138
+  -
+    name : BTN_NewAPT
+    identifier : 0x2c93771a0813ef9e
+    internal_properties : CAAAAAgAAADxuTemuzlxTjgwT+t9XlEP0j8laIT2X1u4cvKZgRspL7ByAaME2rDsL7+r2998GxsBVfwKA7xDifnH4p+NZihOIDKe/rI48TweNoSSi4W34mJDB+dwEIqG5m9nJPnEeixj3b07ZgBapxfvkaZHgBPc2HVQoFGI/IQei2O9hztXWZwvxwej7RYN3kngMeKU8Zrt9RPt54CIkNW3bbDoLCGlMd1NwGCJiV+LvKxQ8W00t0uY10rCPdFo2eBC1nrLWm9c35XOXJ4umCssFRoQaS1KUDHTaKQ95waGasuepOHpdqBhMdPXkWZxMY53EqHklzGiTO8K46zA4rhiN1IULL3VAiRonLIlN8zca4OboLdW6eVLZZ2Zav+wous1V/e6N1ak12vGFKwGk16e5qHlBp1rwIOUiREuQGO8u2nhT2GYM+LwwC7e9CBE2k7TPaWfQSGE3Evq3nxGlnFifg9aaehrnxWp7kdExrCmJkCfNANyPUYNEEvmkivd6LaEOwoq3U1S9vFKf2t3lzWz0nUwUtMYTkJoFQcX12IOv8amzYKLzrChMModQRIS+sfSw6eyCI+hDE7JXxu4g0xYScJwfYVzdB0mD3gF2o3oTyP244NzvAW6Y2KNgrn1Suauo6pbU2ZRBxz9LNR7BYYkpwD1bDSnjokDJDMVuhD/5Qn4GeZP6miiqd6Xu0to/h/lNUl3KlGsPf3ZHEWxuISs+fitgP7A88axAHZtZH+rd0zU+SsJ3EapDn9uvVFNw0Aotu0OZSqtTpRgtNV2EvoiTg7M/N+CNt+VJTacHwxK1ZLFTulq2tLgf/M9VrwCkgFNoRpldJ/tWSHvNhpdqXigsftZElF42nm3do87xV5rdJ63ErQibQsw7ZMdTco=
+    properties :
+     x : 236
+     y : 323
+     width : 76
+     height : 76
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         apt is an Appointment
+         apt..StartDate = OrganizerPosition(ORG_APT) + "1000"
+         apt..EndDate = OrganizerPosition(ORG_APT) + "1200"
+         OpenMobileWindow(WIN_EditAPT,apt)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2c93771a0817ef9e
+  internal_properties : CAAAAAgAAAAoDyc8j9UqRXUuuWRq3fzV0m7oPUQ1ngpQkKnYcSfuW4CICNP8bOtM/Y7cQMCGPZX4uW4GX66dNDKm5tDjDUFgiI9p/iwMQ5JE/MJWpQUzVgjTfTj2ElY2mswyZqp2E5SsYNgfmLoR2JQhT7Ame8XQ6SnX/vEMpF32IWNWxuyanzfhAKkTnmeKqZrHyhvei2dvcX9wgYxao2XSQ6N825MLmCODLSrLoj2ui0slWqTNxczo17EBE1e0OlvMlJLnkO1PNBMylhPJjVIyRtd0gZ9ETGPXlFo6uXUkZo2neFb7T9aaYtA2LwOiKu3Cwp5J22mDh39UIujny7Lwh8d+JF+BXELq5+HhWI1n+vtQI7u30C4WWn+iKvQNJ/dpZrC4xbOOnUkwBbh/zj8WyuyjFA==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2c93771a0815ef9e
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Edit
+     identifier : 0x2c93771a0816ef9e
+     internal_properties : CAAAAAgAAABcvtCvAGNHM8AfuTXrwFZap/y+YNcm4ffkXCRwuG893PJS9vXf0bu/hkDVTfBRr16APmcbXycpSLs5DcLVdfkufmy9c6AB7T0Ig2As7+SfDhtlHtXx2eaa/2BNqAhqQP3t/RIoNFnzfYCuLXW52JiUcBz2zrUQyGoj87dN6Gi+EjPksf/KYYunBg5geZu/pQ7ynWuH6OxyRo5ubX/d4UA4ZIoVrADwa6aYf5HiBOuvOsuu9oNQDjFgdIf673qaQ5akG+6xvJfgSpo//Aeztqra1u2T4C59WCGVy6w40C1cO0P6DGJQniMsbTjbRYJzcFf2WhtU7q9U8ug=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          OpenMobileWindow(WIN_EditAPT,gSelectedAPT)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAADfkMdz1+EUXWDRNu9A147tubQh8sO5UkeYzsJi7uMj9v5ZMbM1MzussC/FQYmevdLJYAh1htxtNXuPfNzeGSzG13EH0cxEnyM34gqX
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      Procédure MyWindow()
+      
+      // Modes of the organizer
+      EOrganizerMode is énumération
+      	OrganizerMode_Day
+      	OrganizerMode_Week_5
+      	OrganizerMode_Week_7
+      	OrganizerMode_Month
+      end
+      
+      // Default mode
+      geOrganizerMode is EOrganizerMode
+      gSelectedAPT is an Appointment
+      
+      // If the application is displayed on a large screen (tablet or PC)
+      if ScreenType() in (teTablet, teComputer) then
+      	// Tablet
+      	geOrganizerMode = OrganizerMode_Week_5
+      else
+      	// Phone
+      	geOrganizerMode = OrganizerMode_Day
+      end
+      
+      
+      // Change the mode
+      ChangeOrganizerMode(geOrganizerMode)
+   -
+     code : |1+
+      
+      // Initialize the database
+      InitDB()
+      
+      // Fill the calendar
+      RefreshOrganizer()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : ChangeOrganizerMode
+     procedure_id : 2059120408202112926
+     type_code : 14
+     code : |1-
+      // Summary: Changes the mode of the organizer
+      // Syntax:
+      //OrganizerChangeMode (<eMode> is WIN_Home.EOrganizerMode)
+      //
+      // Parameters:
+      //	eMode (WIN_Home.EOrganizerMode): The mode to display
+      // Return value:
+      // 	None
+      //
+      Procédure ChangeOrganizerMode(eMode is EOrganizerMode) <UI>
+      
+      BTN_Day..Pushed = False
+      BTN_Week..Pushed = False
+      BTN_Month..Pushed = False
+      
+      geOrganizerMode = eMode
+      
+      switch eMode
+      	case OrganizerMode_Day
+      		BTN_Day..Pushed = True
+      		ORG_APT.ChangeMode(orgzDay)
+      	case OrganizerMode_Week_5
+      		BTN_Week..Pushed = True
+      		ORG_APT.ChangeMode(orgzWeekOn5)
+      	case OrganizerMode_Month
+      		BTN_Month..Pushed = True
+      		ORG_APT.ChangeMode(orgzMonth)
+      		
+      end
+      
+      RefreshOrganizerInfo()
+     type : 458752
+   -
+     name : RefreshOrganizer
+     procedure_id : 2059120408202178462
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the organizer
+      //
+      Procédure RefreshOrganizer() 
+      
+      ORG_APT.DeleteAll()
+      
+      for each apt 
+      	myapt is an Appointment
+      	
+      	myapt.Title = apt.Title
+      	myapt.Content = apt.Content
+      	myapt.StartDate = apt.StartDate
+      	myapt.EndDate = apt.EndDate
+      	
+      	myapt.ID = apt.APTID
+      	
+      	// Color search
+      	HReadSeek(aptbckgrd,APTBckgrdID,apt.APTBckgrdID)
+      	myapt.BackgroundColor	= HTMLToRGB(aptbckgrd.BackgroundColor)
+      	
+      	ORG_APT.AddAppointment(myapt)
+      end
+     type : 458752
+   -
+     name : RefreshOrganizerInfo
+     internal_properties : CAAAAAgAAABE/MVF5aMcL76pBEaXWlOMo74FA7G+zB3cXMB0Xw8mH65mtt7N/lxw9mTVQhIPIwmg8Y+KRdn5XJOmcuSc3mL0B7Oo9URtGWVkU7W5N1/3z8B77Ni077BPL5wX36RNiezmzeaWe65eGWmUn9Cxc7AZhOJoMe9gJzwxrn31ctq2rwrkFrYH9Fm0og+Rh1omPzvI3fC9ZHguVAWkuigjjigLYdoCkoIf
+     procedure_id : 2059120408202243998
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the organizer information
+      //
+      Procédure RefreshOrganizerInfo() <UI>
+      
+      dStart is date = OrganizerPosition(ORG_APT)
+      
+      
+      
+      switch geOrganizerMode
+      	case OrganizerMode_Day
+      		MyWindow..Title = "Organizer control"
+      	case OrganizerMode_Week_5,OrganizerMode_Week_7
+      		MyWindow..Title = "Week " + WeekNumber(dStart)		
+      	case OrganizerMode_Month
+      		<compile if ConfigurationType=Android>
+      			MyWindow..Title = DateToString(OrganizerPosition(ORG_APT,orgCurrentMonth),"Mmmm")
+      		<else>
+      			MyWindow..Title = "Organizer control"
+      		<end>
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1be9a5d0004a4509
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

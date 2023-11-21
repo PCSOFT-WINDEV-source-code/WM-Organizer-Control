@@ -1,0 +1,131 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_APT
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_APT
+ identifier : 0x2c93771d0909f9cf
+ internal_properties : CAAAAAgAAABqMqFk0mhwNlx/C6y9qeSInFtRn1X0I4qFYURhX40p/uFql892B0XKIH+KTZG6X6EoDOvXYRHaEVHpJGlnMtFkqGrEZkAd5A4A1PTW6Jn3MOUmq7JF7F6gfD1UA+cJaZwhRHdCDFGkIp36aTnZH7LtgZVMR+5DuYZ5aTd7VE03Zg2zmORW/R0GUcjda8KVtMdeoWLMta4UKqcVpRALjLuMXEqaVquboRioB8pYBI9IIM2eydK1YgIsUNhhVEy+aqWZYwJ5+A4LIdtqU/z2+fdSA6wyr97n2W1mzrp3vKJDzUdwS1Vh5p3HEZi2k3gAsK2Kh8jbpPxXAWhCpvsGw5HYx9Clgf2hofeqb/yGGLk+Bjli2D8dXEQHC0sYRT0oiIIViDoWYGiY7qSh9BnaC2DS9lBAIRS4LErt4AzvNFl/sV/Ql08TVYVBRPVWU4VYR9PKRg/OTHcZ3ORHM+8Jia/JMwULLcej8d+EZX6qhHxxY00wzeQ9prMzdcBm813E+uIsfWDyTAZVKH8kM3gkrhmwnRLaxubbyk8uvgp7hOqjN2AD5fkzpaPwXNPF4T8k5uLgzLgh47iwL7uuTtEVJ3iF6AV5qAFS9yWHyWTMMPFsJ9FeWxeBoW5MF6daQyTBzbvIcTbNxKDXskJNWoeJapX3KkRBAvhQvyq7k+0gEN62yjlPCRgWK0AmcGkMrSV7asJsAWZjnuTlyTo2J9fqnm6+Qp5tEbZEsUvmEfRHjX1PW4ycVyQ5vM/NnYWuJQ==
+ properties :
+  width : 175
+  height : 225
+ controls :
+  -
+    name : IW_APT
+    identifier : 0x2c93771d090af9cf
+    internal_properties : CAAAAAgAAABsFDb5uNfTkktF5NLRLcLZb8wcQu60k9CK5XGjvp04kD0RpluZIYuAexXHqaAkC02xxmuXs3F5XA1HVZU6Gd/GAgXM35HtfAE0twya3cg9KIi61P1GYsB2ay9LHof0fchi6Li6pTIs3Ohz5OifJ9uUV2CY9ixbIgQVNJ9U+WeakUGS+nhpaPOIPaTi9jlfXvzrdmWZw6ugncqFAW5tRrgR7TKEyeW7/UXB64gcouDNDxDuiVl5QFJkLRTMQBVXBc816u73Wv6EXE51vfKmmY7EK7DdWoDmbB7n8V3TgMh+YpyfZIHPmGLMy0ecap9BG7zyc/veuLQrgfIPgJhog6jbsSESJG/jSI+D3/LzclbXtXBy61OpuGjse8nAlnk5zBG5XD62WnI6c3Kzb35SOdyTF1LJ7S63t0HQBBbcLkglQjqEBn/Y7PrmWblSig5XDHkl//+Wvtk3+8S8NCwj+pSh7b/1WQ2ucDogBGfJRiztq3Zd7Q==
+    properties :
+     width : 175
+     height : 225
+    controls :
+     -
+       name : STC_APTTitle
+       identifier : 0x2c93771d090df9cf
+       internal_properties : CAAAAAgAAABKP7GzqDpra0z0QMyTK2FSrB8RLa0t+FSGkAirpozLMOA8G9hpK7lWmBwplLr74aTNIG5QNwrc9N60iy1x/0B3VDsZmBjoKTu3j3goria7WEYEWTJgg+6PWkPdC+ZbmjDX3DIaV1WTpfql7ML+K3aNVMKfaVO0wkK1evwic+Pk2mNNRQR6JN1DEzCiadqUzEhDLf5YcMh/Qt3Ci1CbSZYxt4xEsirxF7GgCQnUV75lkKqMZhWj9sLQ0HxcOcuNs2L+CDTEm31oStFvWyJoZhMiFov3eUX9UWQ+oW6E+4/QUcRezqw7Z6UyjQwy9Sj9LNGxl/YYLH8I25oLEdo13CeOIEff9NzN/7LQhzDbTxQeNvRRVX7f4mzof+GaBbJO1uGpTmLxt0jMr3DvMSWtZzR627ehgO9pLEtda8GiiNG/KpkNfQs562Oi
+       properties :
+        x : 8
+        y : 1
+        width : 159
+        height : 27
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_Details
+       identifier : 0x2c93771d090cf9cf
+       internal_properties : CAAAAAgAAADRvYir3r0yo97nZ7dTkaMvXNEr+gMr77tEkqCwcPgHyeA/3au+VsfuDHpWlOVxma4dOiY5IEHQ4Gq9dRNg59dkJKy2WlANcS3C9DygOhdupO2vNcdJ5jN4qUG3iIo748SFKiXCxUua5GgDW16tirumfzzToh7H9cK5ivd7oY5f6LkMHwjdMCoaaNyN3OYKluL2OAP7Q1lL4lmJfh14F62ZoQSRYi65V57Fxg4W6A19oE6t5mqEfKAvyD+Vu2gebjPNsMbyrA8ybhLj3Qmepnyqj39LOxKqVhncINE9oZeTBqw5udOetb+uIDneAQ0MdrtFnY708dFqdPMUxF0hSE7w8gS8ahAARWRiIvRlexSpQ6upaxX1IxWWHdZQ/+NszLoPzh0OwXv5Aksym5n5NEq0nCgFnHCqwY4x5dPHko/uKiw4
+       properties :
+        x : 8
+        y : 30
+        width : 159
+        height : 191
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_BackgroundAPTTitle
+       identifier : 0x2c93771d090bf9cf
+       internal_properties : CAAAAAgAAADf7rdQQkMpMaarCwM1Unotq6tZshJ71U6hFBYAHFGwVlfG/tMMo0wmyHFCRJrgOz7UpbbYPRuly9v1wOcI826jQd6MDRiguNPzXxFZd4wb92fM5lHxWraWURycra8XONYdoJuap/F6GUkCrZwHA4I3L6v6hRzathgN0OWVRSjGKQVq4ElVSSMYVIVziZ7JpYGUHbOPZYGIwjhCx5NmNoFkIo/V+zcOs9J585VokGhEtbUnkyOsui2YBUvuLqdPMJOy9KbS87L+vHEPs8ln56Trw7nn6C0H/As8Rx+3Jl0NnVUFKbmMg6FfoHVT7agNdasFtCK2Df72XQrKksh2O44xMMZ/zrjrh0/YkzYYqbHfjNkmJEPG57eAYG0UieRJeWIA51b51PVb/DUhB6gssgg=
+       properties :
+        width : 175
+        height : 225
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Image1
+       identifier : 0x2c93771d090ef9cf
+       internal_properties : CAAAAAgAAABovfoa7yAhFCLny/I3Nba8UTU2wxLrjOlrzmtvELPhL0oHLi5abyxQbh0ux5RjRzIiwDKKKGkHMVTlRies5t6HUxGUO4ivdFkIx4I42PAbzXJXb2JY9cAerRP5Cp6e1O/I5k7mNRElwK3x63P3KHj6MaJ4xDxWDcbPfvQQIptfJAeDX6ol4S+Xl6mdUewsomgjtArVrlB8bhnuRQ55r6pRucUf1vnj9AZ0FG0aOc/KS8iIy9jXML1SPEG3HdCsXItoP1CuKvvHagdnXCr+3hIRzHhy1pUcSN+GBBAPhJTc5+h5KkAXuC55BVFw0odSBCyRs+WzeA5KaYFcS1ZObOXR/CdrDi3c7sonCrqgkMPgWTsMVm7MMeYMdBD/EZt9mSpcJbUyvfUc5Qcw3Jab5A29jOWwvkceiWEcW15f5T67JiRPHlRVKI/o9AE+xFRcu5Hr66Ol2hsCBnvskegOuVs9gyN1a7o3naX/A1bSPBta0kZdN23j4KwYzYVrxYrvZik/7kZZUG+GxCKCIOFhsPlvNyVmrZissvL/4Uwqbykw4NirctpLX0KE6DP/D5uwIJv2jnI9OrMabZK0S7QgGM8h8ICUsInbQUEPAd9DBe0FjBY1MQXXylU4JSnmrbYYf+Ph5VPe9e7+NCV+8xYYQ0RpblFQ4mMCx61GPHIEgCRojKRs3rvoWli30rFdEk2YGytiVAdxWhk1RhH3ecC89pAWSvAMElVB4zB5sdpF2/0RMKr4F4YaAmWFEkYLBjWOfbsVnieqjwQ=
+       properties :
+        x : 3
+        y : 206
+        width : 16
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         // Procedure called before each appointment drawing in an Organizer, Scheduler or TimeLine control
+         // This code is re-run for EACH appointment display 
+         Procédure IW_WinDevViewAPT( EventOrAPT is appointment)
+         //EventOrAPT: Appointment or Event to draw
+         
+         // => SourceToScreen
+         STC_Details 						= EventOrAPT..Content
+         STC_APTTitle 					= EventOrAPT..Title
+         
+         IMG_Image1..Value 				= EventOrAPT..Image
+         
+         // Background color
+         STC_BackgroundAPTTitle..BackgroundColor	= EventOrAPT..BackgroundColor
+         STC_APTTitle..FontSize = 4
+         
+         // if the ATP is small and if we have a logo
+         if MySelf..Height <= 2*STC_BackgroundAPTTitle..Height _and_  EventOrAPT..Image<>"" then
+         	// place the caption beside the title
+         	IMG_Image1..Y = STC_APTTitle..Y
+         	STC_APTTitle..X = IMG_Image1..X + IMG_Image1..Width
+         end
+      -
+        type : 15
+      -
+        type : 16
+ menu :
+  name : _Menu
+  identifier : 0x2acc86310b04310d
+  internal_properties : CAAAAAgAAAAjoO+VYAXYh2SYpTvD7AgXCHEHRjuTd5K/qNR3zUpM1aIlQYejrbtK76/LWLozAhgdmcRuoxDXe7vi3lf8PoZYYzNtPYlgCK9AarNrSCSSPpGDp+KLIikSwO2L+lCfwFobS8WKQZu2noN9WV5ipxuLKjTaOvfojbcmu1i6FPrF8FEPa+oQBHdRyMYNLYyLF/nTGn2y7NBixG5dC7y2wsO4aXA1CKpzZUca8sBJUrSr9FqhTJMK37pOOZqMTeCIo+trbOMI1osTdzjD26auXrzETrP8OxsAt+HgvahLwDb4kRpR6lQOjBIj
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABqid0Sq1dU4LEej6/Dcvi+RL1jmzVmYp909N+67+kQjo1OvXj//ay6zWhRj4SCJPmnGSzrS0FyMkX1RJnWbx+9c80B5UE=
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x1ba8abc900e0b5fb
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
